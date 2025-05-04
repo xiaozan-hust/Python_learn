@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20abdea-0cc2-41e9-a855-a0b35b7f2d3c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Python_learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_5.py" afterDir="false" />
+    <list default="true" id="b20abdea-0cc2-41e9-a855-a0b35b7f2d3c" name="更改" comment="python_learn project">
+      <change afterPath="$PROJECT_DIR$/file/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/test_bilibili.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/test_bilibili.txt.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/test_write.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_utils/file_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_utils/str_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +38,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2w7adYRQ2sC5Sr4thrppOmS1V9s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,20 +51,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.file_util.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.str_util.executor": "Run",
     "Python.test_1.executor": "Run",
     "Python.test_2.executor": "Run",
     "Python.test_3.executor": "Run",
     "Python.test_4.executor": "Run",
+    "Python.test_5.executor": "Run",
+    "Python.test_6.executor": "Run",
+    "Python.test_7.executor": "Run",
+    "Python.test_8.executor": "Run",
+    "Python.test_9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jxj/Python_learn",
+    "last_opened_file_path": "/home/jxj/Python_learn/scripts",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/file" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -76,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745395153892</updated>
     </task>
+    <task id="LOCAL-00001" summary="python_learn project">
+      <option name="closed" value="true" />
+      <created>1746153906641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746153906641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="python_learn project" />
+    <option name="LAST_COMMIT_MESSAGE" value="python_learn project" />
   </component>
 </project>
