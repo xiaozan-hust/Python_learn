@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b20abdea-0cc2-41e9-a855-a0b35b7f2d3c" name="更改" comment="python_learn project">
-      <change afterPath="$PROJECT_DIR$/file/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/test_bilibili.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/test_bilibili.txt.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/test_write.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_utils/file_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_utils/str_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.file_util.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.str_util.executor": "Run",
-    "Python.test_1.executor": "Run",
-    "Python.test_2.executor": "Run",
-    "Python.test_3.executor": "Run",
-    "Python.test_4.executor": "Run",
-    "Python.test_5.executor": "Run",
-    "Python.test_6.executor": "Run",
-    "Python.test_7.executor": "Run",
-    "Python.test_8.executor": "Run",
-    "Python.test_9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jxj/Python_learn/scripts",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.file_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jxj/Python_learn/scripts&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
