@@ -17,13 +17,13 @@
 #           函数：append_to_file(file_name, data)，接收文件路径以及传入数据，将数据追加写入到文件中
 #-----------------------------------------------------------------------------------------------------------------------
 
-from my_utils import file_util
-from my_utils.str_util import *
-import my_utils.str_util
+from package.my_utils import file_util
+from package.my_utils.str_util import *
+import package.my_utils.str_util
 
 # 字符串功能测试
 str_test = "华中科技大学"
-print(f"字符串反转工具测试：{my_utils.str_util.str_reserve(str_test)}")
+print(f"字符串反转工具测试：{package.my_utils.str_util.str_reserve(str_test)}")
 print(f"字符串切片工具测试：{substr(str_test, 2, 4)}")
 
 # 文件功能测试
