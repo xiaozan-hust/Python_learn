@@ -8,9 +8,11 @@
 
 # print()函数
 # print(内容, end='')即可输出不换行
+# 可以使用双引号也可以使用单引号
 print(1234)
 print("hello world")
 print("中文测试")
+print('中文测试')
 money = 50
 money = money - 10
 print("钱包剩余：", money, "元。")
