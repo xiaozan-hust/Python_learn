@@ -22,6 +22,7 @@
 # 其中参数与返回值不是必须的
 # 遇到return或缩进后函数执行结束
 # 若函数无返回值，其实函数会返回None，依然可以用变量去接收它
+# 即使有返回值也不一定必须要用变量去接收它
 # 编写函数说明文档后，鼠标悬停在函数处，可以显示函数使用方法
 # 函数可以嵌套调用
 
@@ -38,6 +39,7 @@ def my_len(str_):
     return count
 name_1 = "450315c"
 name_2 = "hdshds"
+my_len(name_1)              # 即使有返回值也不一定必须要用变量去接收它
 print(my_len(name_1), my_len(name_2))
 
 # 返回值可以是None，可以用作逻辑中
@@ -63,18 +65,18 @@ print(x, y, z)
 # global关键字：如果要在函数体内容对变量进行修改，可以在函数内部声明变量为全局变量
 test_num = 100
 def print_test_num_a():
-    test_num = 200  # 此处相当于又新定义了一个test_num，所以不会修改外部的test_num的值
+    test_num = 200          # 此处相当于又新定义了一个test_num，所以不会修改外部的test_num的值
     print(f"{test_num}")    # 打印200
 
 def print_test_num_b():
-    global test_num # 设置test_num为全局变量，即此处的test_num为外部定义的那个test_num
-    test_num = 200  #
+    global test_num         # 设置test_num为全局变量，即此处的test_num为外部定义的那个test_num
+    test_num = 200
     print(f"{test_num}")    # 打印200
 
 print_test_num_a()
-print(f"{test_num}")    # 还是打印100
+print(f"{test_num}")        # 还是打印100
 print_test_num_b()
-print(f"{test_num}")    # 变为打印200
+print(f"{test_num}")        # 变为打印200
 
 # 函数综合案例 ##########################################################################################################
 all_money = 5000000
@@ -88,7 +90,7 @@ def print_money():
     print(f"{name}，你好，你的余额剩余：{all_money}元")
 def save_money(money_):
     global all_money
-    all_money += money_ # 不能直接使用all_money，必须要先使用global关键字声明一下
+    all_money += money_                             # 不能直接使用all_money，必须要先使用global关键字声明一下
     print(f"{name}，你好，你成功存款{money_}元，账户余额剩余：{all_money}元")
 def draw_money(money_):
     global all_money
@@ -108,14 +110,13 @@ while True:
             draw_money(temp_money)
         else:
             print(f"余额不足，账户余额剩余{all_money}元")
-
     elif choice == 4:
         break
     else:
         print("你输入的数字有误，请重新输入！")
 
 # 函数的进阶用法 #########################################################################################################
-# 函数可以有多个返回值：如return 1, 2      x, y = 函数()
+# 函数可以有多个返回值：如return 1, 2     调用时：x, y = 函数()
 # 函数的参数调用：
 #   位置参数：调用函数时根据函数定义的参数位置来传递参数
 #   关键字参数：调用函数时通过“键=值”的形式传递参数，还可以和位置参数混合使用，但是此时必须位置参数在前，且与参数顺序对应
